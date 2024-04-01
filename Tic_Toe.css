@@ -1,0 +1,128 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+
+.gamecontainer {
+    background-image: url("data:image/jpeg;base64,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");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.box {
+    border: 2px solid rgb(107, 106, 106);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxtext {
+    color: rgb(248, 184, 101)
+}
+
+.box:hover {
+    background-color: rgb(82, 80, 82);
+    cursor: pointer;
+}
+
+.imagebox img {
+    position: absolute;
+    width: 0;
+
+
+}
+
+.bl-0 {
+    border-left: 0;
+
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bt-0 {
+    border-top: 0;
+
+}
+
+.bb-0 {
+    border-bottom: 0;
+
+}
+
+#restart {
+    color: rgb(63 61 61);
+    margin: 5px 30px;
+    cursor: grab;
+    background-color: rgb(154, 150, 150);
+    border: 3px solid rgb(249, 180, 69);
+    border-radius: 29px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2rem;
+    padding: 5px 7px 5px 7px;
+}
+
+#restart:hover {
+    background-color: grey;
+}
+
+.line {
+    position: absolute;
+    background-color: rgb(255, 91, 21);
+    width: 0;
+    height: 300px;
+    border-radius: 3px;
+    z-index: 2;
+    transition: all 1s ease-in-out;
+}
+
+.Info {
+    display: block;
+    margin-top: 2rem;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    color: #45fae2;
+
+}
+
+.gameInfo h1 {
+    display: flex;
+    justify-content: right;
+    color: rgb(205, 246, 55);
+}
+
+@media screen and (max-width:900px) {
+    .gamecontainer {
+        flex-wrap: wrap;
+    }
+
+    .Info {
+        font-size: 2rem;
+    }
+
+    .container {
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+
+
+
+}
